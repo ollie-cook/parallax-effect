@@ -95,6 +95,9 @@ export default function Home() {
         <ParallaxLayer className="relative" offset={2} speed={1.5}>
           <img src="/roadster.png"  className=" w-[15%] absolute left-[8%] top-[55%]"></img>
         </ParallaxLayer>
+        <ParallaxLayer className="relative" offset={5} speed={1.5}>
+        <p className="absolute bottom-2 left-1/2 -translate-x-1/2 font-semibold" >Built by <a href="https://www.olliecookie.com" className="underline" target="_blank">Ollie Cook</a>&#x1f36a;</p>
+        </ParallaxLayer>
       </Parallax>
     </main>
   );
