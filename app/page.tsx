@@ -47,8 +47,8 @@ export default function Home() {
         <ParallaxLayer offset={2} factor={3} className="bg-gradient-to-b from-[#181d2b] to-[#55759b]" />
         <ParallaxLayer offset={5} factor={1} style={{backgroundImage: "linear-gradient(to bottom, #55759b, rgba(255, 255, 255, 0)), url(/desert.jpg)" ,backgroundSize: 'cover'}} />
         <ParallaxLayer offset={0} className="flex flex-col items-center" sticky={{ start: 0, end: 0.3 }}>
-          <img src="/spacex-logo.png" className="w-2/3 mt-16" />
-          <h2 className="text-white text-6xl mt-16">our rockets land.</h2>
+          <img src="/spacex-logo.png" className="w-11/12 md:w-2/3 mt-16" />
+          <h2 className="text-white text-3xl sm:text-5xl md:text-6xl mt-16 text-center">our rockets land.</h2>
           <p className="mt-4 text-white">scroll for a demo</p>
           <IoIosArrowDown className="h-8 w-8" style={{color: 'white'}}/>
         </ParallaxLayer>
